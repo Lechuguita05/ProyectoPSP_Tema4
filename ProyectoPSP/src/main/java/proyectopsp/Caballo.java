@@ -9,5 +9,17 @@ package proyectopsp;
  * @author Diurno
  */
 public class Caballo {
+    protected String nombre;
+    protected int numero;
+    protected final int VELOCIDAD = 5;
+    protected int ejeX;
+    protected int ejeY;
+
+    public Caballo(String nombre, int numero, int ejeX, int ejeY) {
+        this.nombre = nombre;
+        this.numero = numero;
+        this.ejeX = ejeX;
+        this.ejeY = ejeY;
+    }
     
 }
