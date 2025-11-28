@@ -27,9 +27,6 @@ public class HiloServ1 extends Thread{
         panelPop = p;
     }
     
-    
-    
-    
     @Override
     public void run() {
         

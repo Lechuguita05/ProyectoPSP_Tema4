@@ -21,5 +21,37 @@ public class Caballo {
         this.ejeX = ejeX;
         this.ejeY = ejeY;
     }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public int getNumero() {
+        return numero;
+    }
+
+    public void setNumero(int numero) {
+        this.numero = numero;
+    }
+
+    public int getEjeX() {
+        return ejeX;
+    }
+
+    public void setEjeX(int ejeX) {
+        this.ejeX = ejeX;
+    }
+
+    public int getEjeY() {
+        return ejeY;
+    }
+
+    public void setEjeY(int ejeY) {
+        this.ejeY = ejeY;
+    }
     
 }
